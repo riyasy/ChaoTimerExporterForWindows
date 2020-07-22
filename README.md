@@ -19,3 +19,4 @@ The following workflow was followed to get the data out of the Chao Timer.
 11. Now you will have a new folder with the xml plists for each session.
 12. Run the ChaoTimerCSVExporter.exe. Give the folder in Step 11 as input.
 13. The result CSV will be generated in the same folder.
+14. Open the csv in excel or any spread sheet application and check your data.
