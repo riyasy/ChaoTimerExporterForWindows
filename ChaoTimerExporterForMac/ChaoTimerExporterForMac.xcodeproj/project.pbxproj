@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		556D976C27A035170076E87E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 556D976B27A035170076E87E /* main.m */; };
+		556D978F27A036B00076E87E /* CHTSolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 556D978727A036AF0076E87E /* CHTSolve.m */; };
+		556D979027A036B00076E87E /* CHTScramble.m in Sources */ = {isa = PBXBuildFile; fileRef = 556D978827A036AF0076E87E /* CHTScramble.m */; };
+		556D979127A036B00076E87E /* CHTSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 556D978A27A036AF0076E87E /* CHTSession.m */; };
+		556D979227A036B00076E87E /* CHTSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 556D978B27A036AF0076E87E /* CHTSessionManager.m */; };
+		556D979A27A037130076E87E /* CHTUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 556D979927A037130076E87E /* CHTUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		556D976627A035170076E87E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		556D976827A035170076E87E /* ChaoTimerExporterForMac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChaoTimerExporterForMac; sourceTree = BUILT_PRODUCTS_DIR; };
+		556D976B27A035170076E87E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		556D978727A036AF0076E87E /* CHTSolve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTSolve.m; sourceTree = "<group>"; };
+		556D978827A036AF0076E87E /* CHTScramble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTScramble.m; sourceTree = "<group>"; };
+		556D978927A036AF0076E87E /* CHTSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTSession.h; sourceTree = "<group>"; };
+		556D978A27A036AF0076E87E /* CHTSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTSession.m; sourceTree = "<group>"; };
+		556D978B27A036AF0076E87E /* CHTSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTSessionManager.m; sourceTree = "<group>"; };
+		556D978C27A036AF0076E87E /* CHTScramble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTScramble.h; sourceTree = "<group>"; };
+		556D978D27A036B00076E87E /* CHTSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTSessionManager.h; sourceTree = "<group>"; };
+		556D978E27A036B00076E87E /* CHTSolve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTSolve.h; sourceTree = "<group>"; };
+		556D979827A037130076E87E /* CHTUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTUtil.h; sourceTree = "<group>"; };
+		556D979927A037130076E87E /* CHTUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		556D976527A035170076E87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		556D975F27A035170076E87E = {
+			isa = PBXGroup;
+			children = (
+				556D976A27A035170076E87E /* Source */,
+				556D976927A035170076E87E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		556D976927A035170076E87E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				556D976827A035170076E87E /* ChaoTimerExporterForMac */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		556D976A27A035170076E87E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				556D978127A035FD0076E87E /* Other */,
+				556D977327A0358C0076E87E /* DataStructure */,
+				556D976B27A035170076E87E /* main.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		556D977327A0358C0076E87E /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				556D978C27A036AF0076E87E /* CHTScramble.h */,
+				556D978827A036AF0076E87E /* CHTScramble.m */,
+				556D978927A036AF0076E87E /* CHTSession.h */,
+				556D978A27A036AF0076E87E /* CHTSession.m */,
+				556D978D27A036B00076E87E /* CHTSessionManager.h */,
+				556D978B27A036AF0076E87E /* CHTSessionManager.m */,
+				556D978E27A036B00076E87E /* CHTSolve.h */,
+				556D978727A036AF0076E87E /* CHTSolve.m */,
+			);
+			name = DataStructure;
+			sourceTree = "<group>";
+		};
+		556D978127A035FD0076E87E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				556D979827A037130076E87E /* CHTUtil.h */,
+				556D979927A037130076E87E /* CHTUtil.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		556D976727A035170076E87E /* ChaoTimerExporterForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556D976F27A035170076E87E /* Build configuration list for PBXNativeTarget "ChaoTimerExporterForMac" */;
+			buildPhases = (
+				556D976427A035170076E87E /* Sources */,
+				556D976527A035170076E87E /* Frameworks */,
+				556D976627A035170076E87E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChaoTimerExporterForMac;
+			productName = ChaoFileExporter;
+			productReference = 556D976827A035170076E87E /* ChaoTimerExporterForMac */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		556D976027A035170076E87E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					556D976727A035170076E87E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 556D976327A035170076E87E /* Build configuration list for PBXProject "ChaoTimerExporterForMac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 556D975F27A035170076E87E;
+			productRefGroup = 556D976927A035170076E87E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				556D976727A035170076E87E /* ChaoTimerExporterForMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		556D976427A035170076E87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556D976C27A035170076E87E /* main.m in Sources */,
+				556D978F27A036B00076E87E /* CHTSolve.m in Sources */,
+				556D979127A036B00076E87E /* CHTSession.m in Sources */,
+				556D979A27A037130076E87E /* CHTUtil.m in Sources */,
+				556D979027A036B00076E87E /* CHTScramble.m in Sources */,
+				556D979227A036B00076E87E /* CHTSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		556D976D27A035170076E87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		556D976E27A035170076E87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		556D977027A035170076E87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		556D977127A035170076E87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		556D976327A035170076E87E /* Build configuration list for PBXProject "ChaoTimerExporterForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556D976D27A035170076E87E /* Debug */,
+				556D976E27A035170076E87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556D976F27A035170076E87E /* Build configuration list for PBXNativeTarget "ChaoTimerExporterForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556D977027A035170076E87E /* Debug */,
+				556D977127A035170076E87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 556D976027A035170076E87E /* Project object */;
+}
