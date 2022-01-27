@@ -13,7 +13,7 @@ The following workflow was followed to get the data out of the Chao Timer.
 7. Copy these plist files to your MAC 
 8. Set the input directory properly in main.m
 9. Execute the program
-10. CSC content is generated as a file in Documents folder.
+10. CSV content is generated as a file in Documents folder.
 
 
 Uses the data classes from the original ChaoTimer App Source Code
